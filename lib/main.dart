@@ -1,4 +1,5 @@
-import 'package:coffe_app/pages/sing_up.dart';
+import 'package:coffe_app/pages/login_page.dart';
+import 'package:coffe_app/pages/welcom_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const SingUp(),
+      home: const WelcomPage(),
     );
   }
 }
