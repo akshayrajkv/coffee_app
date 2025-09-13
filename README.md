@@ -1,6 +1,11 @@
 # coffe_app
 
-A new Flutter project.
+A new Flutter project
+
+https://github.com/user-attachments/assets/7277fcad-051d-4e0d-a41a-33e9e2a5f462
+
+er project.
+
 
 ## Getting Started
 
