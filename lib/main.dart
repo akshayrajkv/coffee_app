@@ -1,4 +1,4 @@
-import 'package:coffe_app/pages/login_page.dart';
+
 import 'package:coffe_app/pages/welcom_page.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        brightness: Brightness.dark,
         textTheme:const TextTheme(
+        
       bodyMedium: TextStyle(color: Colors.white), // default for normal text
       bodyLarge: TextStyle(color: Colors.white),
       bodySmall: TextStyle(color: Colors.white),
@@ -24,13 +26,14 @@ class MyApp extends StatelessWidget {
       titleMedium: TextStyle(color: Colors.white),
       titleSmall: TextStyle(color: Colors.white),
     ),
-        colorScheme: ColorScheme.fromSeed(
+    
+        // colorScheme: ColorScheme.fromSeed(
           
-          seedColor: Colors.white),
-        useMaterial3: true,
+        //   seedColor: Colors.white
+        //   ),
+        useMaterial3:true,
       ),
-      home: const WelcomPage(),
-    );
+      home:WelcomPage(),    );
   }
 }
 

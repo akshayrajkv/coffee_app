@@ -65,7 +65,7 @@ class WelcomPage extends StatelessWidget {
               child: Bigbutton(
                 onTap: (){
                   Navigator.push(context,MaterialPageRoute(builder:(context) {
-                    return const LoginPage();
+                    return const CoffeeLoginPage();
                   },));
                 },
                 buttontext: 'Get Started',),
